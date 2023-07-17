@@ -1,0 +1,111 @@
+.hpy .top{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+}
+.hpy span{
+    color: #FF5D56;
+    text-align: center;
+}
+.hpy .par{
+    text-align: center;
+    font-size: 16px;
+}
+.hpycust .div2{
+    display: flex;
+    margin-left: 320px;
+}
+.hpycust .img{
+    width: 320px;
+    height: 420px;
+    margin-top: 50px;
+}
+.div2 span{
+    color: #FF5D56;
+    font-size: 26px;
+}
+.lft{
+    border: none;
+    background-color: white;
+    color: #f6a9ad;
+}
+
+.rgt{
+    border: none;
+    background-color: white;
+    color: #FF5D56;
+}
+.inDiv{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.div2{
+    margin-top: 60px;
+}
+.div2 .girl{
+    width: 320px;
+    height: 420px;
+}
+.inDiv .para{
+    margin-top: 80px;
+    width: 400px;
+height: 145px;
+font-size: 24px;
+letter-spacing: 0px;
+}
+.inDiv .para2{
+    margin-top: 0px;
+   font-size: 16px;
+}
+.inDiv .para1{
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.arr{
+    margin-left: 45px;
+    margin-top: 40px;
+}
+@media screen and (max-width:768px){
+    .hpycust .div2{
+        margin-left: 60px;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;  
+    }
+    .div2 img{
+
+        width: 152px;
+        height: 200px;
+        margin-left: 250px;
+        
+    }
+    .inDiv{
+        margin-left: 0px;
+        padding-left: 0px;
+         margin-top: 20px;
+    }
+    .cent {
+        text-align: center;       
+    }
+    .inDiv .para{
+        width: 100%;
+        height: 100px;
+    }
+    .arr{
+        margin-left: 320px;
+    }
+    .arr .rgt{
+        margin-left: 30px;
+    }
+    .hpy .top{
+        text-align: left;
+        margin-left: 20px;
+        padding-left: 0%;
+    }
+    .hpy .top span{
+        padding-left: 230px;
+    }
+
+}

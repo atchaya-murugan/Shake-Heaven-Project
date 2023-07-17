@@ -1,0 +1,71 @@
+.oDiv{
+    display: flex;
+
+}
+.bt button{
+    margin-top: 90px;
+    margin-left: 40px;
+    width: 1180px;
+    height: 10px;
+   background-color: #FF9604;
+   border: none;
+}
+.pa{
+    margin-top: 60px;
+    text-align: center;
+}
+.pa1{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+}
+.pa p{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+    margin-left: 150px;
+}.ico{
+  margin-left: 170px;
+  margin-top: 30px;
+}
+.ico a{
+    color: #FF5D56;
+    margin-left: 20px;
+}
+.op{
+    margin-top: 50px;
+}
+.find{
+    color: #FF5D56;
+    font-weight: bolder;
+}
+.mail{
+    margin-top: 50px;
+}
+@media screen and (max-width:768px){
+    .outDiv{
+        width: 648px;
+height: 1064px;
+    }
+    .bt button{
+        width: 648px;
+        height: 10px;
+    }
+    .oDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .oDiv .pa{
+        margin-top: 30px;
+    }
+    .pa p{
+        width: 200px;
+        height: 20px;
+        margin-top: 30px;
+        margin-left: 200px;
+        margin-top: 10px;
+    }
+    .ico{
+        margin-left: 20px;
+    }
+}
